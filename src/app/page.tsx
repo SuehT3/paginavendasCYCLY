@@ -9,7 +9,7 @@ export default function Home() {
   const [activePhase, setActivePhase] = useState<number | null>(null)
   const [scrollY, setScrollY] = useState(0)
   const [scrollProgress, setScrollProgress] = useState(0)
-  const [isVisible, setIsVisible] = useState<{ [key: string]: boolean }>({}
+  const [isVisible, setIsVisible] = useState<{ [key: string]: boolean }>({})
   const [showAuthModal, setShowAuthModal] = useState(false)
   const [authMode, setAuthMode] = useState<'login' | 'register'>('login')
   const [formData, setFormData] = useState({
